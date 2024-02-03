@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #111;
+  height: 100%;
+}
+header {
+  background-color: #ea0000;
+}
+nav {
+  margin: 0 0;
+  line-height: 3.5rem;
+  padding-left: 3.5rem;
+}
+nav a {
+  color: aliceblue;
+  text-decoration: none;
+}
+main {
+  text-align: center;
+  position: relative;
+}
+.center {
+  text-align: center;
+}
+.indexmain{
+  margin-top: 10vh;
+}
+.indexmain .btn {
+  margin-top: 40px;
+}
+.btn {
+  background-color: #eac300;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  border:none;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  background-color: #fafafa;
+}
+.copyright {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 3.0rem;
+  color: #555;
+  text-align: center;
+}
+.sort {
+  width: 2rem;
+}
+.change {
+  width: 2rem;
+}
+/* 書籍一覧 */
+.wrapper {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 3.0rem;
+  box-sizing: border-box;
+}
+.success {
+  color: #28a745;
+}
+.parentdiv {
+  display:flex;
+  width:100%;
+}
+.parentdiv div:nth-child(3){
+  margin-left: auto;
+  padding-right: 10px;
+}
+.serchtext {
+  background-color: rgba(160,149,149,0.30);
+  margin-left: 10px;
+  margin-top: 6px;
+}
+.books-table {
+  width: 100%;
+  margin: 0.8rem auto;
+  word-break: break-all;
+  border-collapse: collapse;
+}
+.books-table tr {
+  border-bottom: solid 1px #d9d9d9;
+}
+.books-table tr:first-child {
+  border-bottom: solid 3px #d9d9d9;
+}
+.books-table th,
+.books-table td {
+   padding: 0.5rem 0.7rem 0.5rem 0;
+   text-align: center;
+}
+.books-table th:first-child,
+.books-table td:first-child {
+  padding: 1rem 0.75rem;
+  text-align: center;
+}
+/* 新規登録 */
+.createmain{
+  text-align: left;
+}
+.display {
+  display:flex;
+  flex-direction:column;
+  position: relative;
+  left: 37vw;
+}
+.display div:nth-child(1),
+.display div:nth-child(3),
+.display div:nth-child(5),
+.display div:nth-child(7),
+.display div:nth-child(9)
+{
+  position: relative;
+  margin-top: 10px;
+}
+.display div:nth-child(2) input,
+.display div:nth-child(4) input,
+.display div:nth-child(6) input,
+.display div:nth-child(8) input,
+.display div:nth-child(10) select
+{
+  width: 25vw;
+}
+.create-btn {
+  text-align: center;
+  margin-top: 20px;
+}
